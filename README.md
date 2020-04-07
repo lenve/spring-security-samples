@@ -14,8 +14,7 @@
 
 |Demo|文章|
 |:---|:---|
-|form-login||
-|form-login-1|[松哥手把手带你入门 Spring Security，别再问密码怎么解密了](https://mp.weixin.qq.com/s/Q0GkUb1Nt6ynV22LFHuQrQ)|
+|form-login|[松哥手把手带你入门 Spring Security，别再问密码怎么解密了](https://mp.weixin.qq.com/s/Q0GkUb1Nt6ynV22LFHuQrQ)|
 |form-login-2|[手把手教你定制 Spring Security 中的表单登录](https://mp.weixin.qq.com/s/kHJRKwH-WUx-JEeaQMa7jw)|
 |form-login-3|[Spring Security 做前后端分离，咱就别做页面跳转了！统统 JSON 交互](https://mp.weixin.qq.com/s/Xzt9ymff0DCbAQbklHOxpQ)|
 |form-login-4|待更新|
