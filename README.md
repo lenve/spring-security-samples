@@ -20,3 +20,5 @@
 |form-login-4|[Spring Security 中的授权操作原来这么简单](https://mp.weixin.qq.com/s/BKAYXMaBBs0VrKZtzorn-w)|
 |form-login-5|[Spring Security 如何将用户数据存入数据库？](https://mp.weixin.qq.com/s/EurEXmU0M9AKuUs4Jh_V5g)|
 |withjpa|[Spring Security+Spring Data Jpa 强强联手，安全管理只有更简单！](https://mp.weixin.qq.com/s/VWJvINbi1DB3fF-Mcx7mGg)|
+|rememberme|[Spring Boot + Spring Security 实现自动登录功能](https://mp.weixin.qq.com/s/aSsGNBSWMTsAEXjn9wQnYQ)|
+|rememberme-persis|[Spring Boot 自动登录，安全风险要怎么控制？](https://mp.weixin.qq.com/s/T6_PBRzIADE71af3yoKB6g)|
