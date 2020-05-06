@@ -22,3 +22,4 @@
 |withjpa|[Spring Security+Spring Data Jpa 强强联手，安全管理只有更简单！](https://mp.weixin.qq.com/s/VWJvINbi1DB3fF-Mcx7mGg)|
 |rememberme|[Spring Boot + Spring Security 实现自动登录功能](https://mp.weixin.qq.com/s/aSsGNBSWMTsAEXjn9wQnYQ)|
 |rememberme-persis|[Spring Boot 自动登录，安全风险要怎么控制？](https://mp.weixin.qq.com/s/T6_PBRzIADE71af3yoKB6g)|
+|verifycode|[SpringSecurity 自定义认证逻辑的两种方式(高级玩法)](https://mp.weixin.qq.com/s/LeiwIJVevaU5C1Fn5nNEeg)|
