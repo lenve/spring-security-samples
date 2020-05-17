@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+</head>
+<body>
+<div>
+    <input type="text" id="username">
+    <input type="password" id="password">
+    <input type="button" value="登录" id="loginBtn">
+</div>
+<script>
+    $("#loginBtn").click(function () {
+        let _csrf = $.cookie('XSRF-TOKEN');
+        $.post('/login.html',{username:$("#username").val(),password:$("#password").val(),_csrf:_csrf},function (data) {
+            alert(data);
+        })
+    })
+</script>
+</body>
+</html>
