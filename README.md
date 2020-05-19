@@ -29,3 +29,6 @@
 |stricthttpfirewall|[Spring Security 自带防火墙！你都不知道自己的系统有多安全！](https://mp.weixin.qq.com/s/Fuu9rKoOvSyuvCKSyh6dUQ)|
 |session-3|[什么是会话固定攻击？Spring Boot 中要如何防御会话固定攻击？](https://mp.weixin.qq.com/s/9SaNvVfiivWUIAe6OZgpZQ)|
 |session-4|[集群化部署，Spring Security 要如何处理 session 共享？](https://mp.weixin.qq.com/s/EAacxjaNg8BJRkTkGFLLpQ)|
+|csrf-1|[松哥手把手教你在 SpringBoot 中防御 CSRF 攻击！so easy！](https://mp.weixin.qq.com/s/TDm8ljxbHpMqteucfmeccA)|
+|csrf-2|[松哥手把手教你在 SpringBoot 中防御 CSRF 攻击！so easy！](https://mp.weixin.qq.com/s/TDm8ljxbHpMqteucfmeccA)|
+|csrf-3|[松哥手把手教你在 SpringBoot 中防御 CSRF 攻击！so easy！](https://mp.weixin.qq.com/s/TDm8ljxbHpMqteucfmeccA)|
