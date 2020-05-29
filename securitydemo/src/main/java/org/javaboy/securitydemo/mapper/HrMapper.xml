@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.javaboy.securitydemo.mapper.HrMapper">
+    <select id="loadUserByUsername" resultType="org.javaboy.securitydemo.model.Hr">
+        select * from hr where username=#{username};
+    </select>
+    <select id="getRolesByHrid" resultType="org.javaboy.securitydemo.model.Role">
+        SELECT * FROM role r,hr_role hrr WHERE hrr.`rid`=r.`id` AND hrr.`hrid`=#{id}
+    </select>
+</mapper>
