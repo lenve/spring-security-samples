@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="jquery.base64.js"></script>
+</head>
+<body>
+<div id="app"></div>
+<input type="button" onclick="btnClick()" value="get_button">
+<input type="button" onclick="btnClick2()" value="post_button">
+<script>
+    function btnClick() {
+        var header = "Basic " + $.base64.btoa("javaboy:123");
+        console.log(header)
+        $.ajax({
+            type: 'get',
+            url: 'http://localhost:8080/hello',
+            headers: {
+                'Authorization': header,
+            },
+            success: function (msg) {
+                $("#app").html(msg);
+            }
+        })
+    }
+
+    function btnClick2() {
+        $.post('http://localhost:8080/hello', function (msg) {
+            $("#app").html(msg);
+        });
+    }
+</script>
+</body>
+</html>
