@@ -4,7 +4,11 @@
 
 ![微信ID：a_java_boy2](https://user-images.githubusercontent.com/6023444/75459026-ba70d500-59b9-11ea-8cbd-3d5889f356c4.png)
 
-#### 本仓库部分 Demo 都有配套视频
+扫码关注微信公众号【江南一点雨】，回复 **ss** 获取 Spring Security 系列完整文章：
+
+![](https://open.weixin.qq.com/qr/code?username=a_javaboy)
+
+#### 本仓库部分 Demo 有配套视频
 
 视频地址：[https://www.bilibili.com/video/BV1xA411h7o3/](https://www.bilibili.com/video/BV1xA411h7o3/)
 
