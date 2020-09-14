@@ -1,0 +1,22 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.javaboy.acls.mapper.NoticeMessageMapper">
+
+
+    <select id="findAll" resultType="org.javaboy.acls.model.NoticeMessage">
+        select * from system_message;
+    </select>
+
+    <select id="findById" resultType="org.javaboy.acls.model.NoticeMessage">
+        select * from system_message where id=#{id};
+    </select>
+
+    <insert id="save" parameterType="org.javaboy.acls.model.NoticeMessage">
+        insert into system_message (id,content) values (#{id},#{content});
+    </insert>
+
+    <update id="update" parameterType="org.javaboy.acls.model.NoticeMessage">
+        update system_message set content = #{content} where id=#{id};
+    </update>
+</mapper>

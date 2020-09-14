@@ -41,7 +41,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     @Bean
-    protected AuthenticationManager authenticationManager() throws Exception {
+    public AuthenticationManager authenticationManagerBean() throws Exception {
         DaoAuthenticationProvider dao1 = new DaoAuthenticationProvider();
         dao1.setUserDetailsService(us1());
 
