@@ -46,7 +46,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .loginProcessingUrl("/doLogin")
                 .usernameParameter("name")
                 .passwordParameter("passwd")
+                // defaultSuccessUrl 是重定向，浏览器地址会变
                 .defaultSuccessUrl("/index")
+                //successForwardUrl 和 defaultSuccessUrl 一起配置时，successForwardUrl 生效
+                //successForwardUrl 是转发,浏览器地址仍为登录请求地址，因此 url "/index" 要支持 POST 请求才可以转发成功，否则会有405异常
                 .successForwardUrl("/index")
                 .failureForwardUrl("/f2")
                 .failureUrl("/f1")

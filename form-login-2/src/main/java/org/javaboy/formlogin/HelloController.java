@@ -36,4 +36,9 @@ public class HelloController {
     public String f2() {
         return "f2";
     }
+
+    @RequestMapping("/index")
+    public String index(){
+        return "index";
+    }
 }
